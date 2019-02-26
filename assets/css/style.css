@@ -1,0 +1,21 @@
+h1,
+h3,
+p {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+}
+
+body {
+  background-color: #cbaae0;
+  text-align: center;
+}
+
+.btn {
+  border: solid black 1px;
+  margin: 5px;
+}
+
+img {
+  border-radius: 10px;
+  cursor: pointer;
+}
