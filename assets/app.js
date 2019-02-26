@@ -12,7 +12,6 @@ $(document).ready(function() {
     $("#characters-view").empty();
     for (var i = 0; i < charactersArray.length; i++) {
       var newBtn = $("<button>");
-      newBtn.addClass("movie");
       newBtn.addClass("btn");
       newBtn.attr("data-name", charactersArray[i]);
       newBtn.text(charactersArray[i]);
